@@ -3,7 +3,7 @@
 #include<conio.h>
 
 HANDLE hCon =GetStdHandle(STD_OUTPUT_HANDLE); //struct для керування консоллю
-
+//constants
 enum TANK_DIRECTION{
     NORTH=72,
     EAST=75,
